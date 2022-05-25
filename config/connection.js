@@ -1,8 +1,6 @@
 const { connect, connection } = require("mongoose");
 
-const connectionString =
-  process.env.MONGODB_URI ||
-  "mongodb+srv://callanhunter:8DxemIqoQvNN1cmg@cluster0.xrqyw.mongodb.net/test";
+const connectionString = process.env.MONGODB_URI || "";
 
 connect(connectionString, {
   useNewUrlParser: true,
