@@ -4,7 +4,7 @@
 
 # Description
 
-### This project created an API that uses a mongodb database and used Express.js for routing. This project will allow a user to share their thoughts, create a friend list, and react to other's thoughts
+### This project created an API that uses a mongodb database and used Express.js for routing. This project will allow a user to share their thoughts, create a friend list, and react to other's thoughts.
 
 # Table of contents
 
