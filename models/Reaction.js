@@ -1,5 +1,6 @@
 const { Schema, model } = require("mongoose");
 
+const moment = require("moment");
 const reactionSchema = new Schema(
   {
     thoughtText: {
@@ -20,9 +21,5 @@ const reactionSchema = new Schema(
   },
   {}
 );
-
-thoughtSchema.virtual("friendCount").get(function () {
-  return this.friends.length;
-});
 
 module.exports = reactionSchema;
